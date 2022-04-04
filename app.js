@@ -9,7 +9,6 @@ dotenv.config({path:"config/config.env"})
 
 
 app.use(express.json())
-app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 app.use(express.static("public"))
 // template engine path 
